@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+* {
+  font-family: 'Changa', sans-serif;
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  color: #fff;
+}
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #001;
+}
+.flag{
+  width: 370px;
+  position: relative;
+  height: 210px;
+  box-shadow: 1px 1px 20px #520000;
+  background: #F9F9F9;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.black{
+  background: #111;
+  box-shadow: inset 1px 2px 7px #333;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  top: 0;
+  height: 70px;
+}
+.white{
+  background: #fff;
+  height: 70px;
+  box-shadow: inset 1px 2px 10px #999;
+}
+.green{
+  box-shadow: inset 1px 2px 25px #094600;
+  background: green;
+  height: 70px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.triangle{
+  top: 0;
+  width: 0px;
+  position: absolute;
+  border-top: 105px solid transparent;
+  border-left: 140px solid #D90606;
+  border-bottom: 106px solid transparent;
+  left: 0;
+  height: 0px;
+}
+h1{
+  background: -webkit-linear-gradient(#520000,#520000,#9B0404,#9B0404,#fff,#117401,#117401,#117401,#117401);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
